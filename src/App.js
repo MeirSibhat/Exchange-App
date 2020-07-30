@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ExchangeApp from './comsExchange/exchangeApp'
 
 function App() {
   return (
     <div className="App">
-        react start!
+    <ExchangeApp/>
     </div>
   );
 }
